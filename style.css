@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    padding: 45px 0;
+    border-bottom: 2px solid #DEDBDB;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.lang span{
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.57px; 
+}
+.lang{
+    display: flex;
+    align-items: center;
+    gap:14px;
+}
+form{
+    width: 800px;
+    border: 1px solid #DEDBDB;
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-top: 46px;
+    padding: 65px;
+}
+.form-logo{
+    width: 150px;
+}
+#form-nav{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    text-align: left;
+    color: #F0400F;
+}
+.form-row{
+    gap: 150px;
+}
+#form-texts{
+    gap: 5px;
+}
+.form-title{
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58.09px;
+    text-align: center;
+    margin-top: 101px;
+    color: midnightblue;
+}
+.btns{
+    margin-top: 79px;
+    margin-bottom: 39px;
+    width: 100%;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    padding: 8px 11px;
+    display: flex;
+    gap: 42px;
+}
+.stednet-btn{
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 33.89px;
+    color: black;
+    text-align: center;
+    padding: 10px 40px ;
+    background-color: white;
+    border-radius: 15px;
+    border: none;   
+}
+.parent-btn{
+    background: none;
+    border: none;
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 33.89px;
+    color: #DEDBDB;
+}
+.login{
+    border: 1px solid  hsla(0, 5%, 42%, 0.121);
+    padding: 20px 51px;
+    width: 100%;
+    border-radius: 20px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20.05px;
+    outline: none;
+}
+.login::placeholder{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20.05px;
+    color: #757575B2;
+    
+}
+.parol{
+    border: 1px solid  hsla(0, 5%, 42%, 0.121);
+    padding: 20px 51px;
+    width: 100%;
+    border-radius: 20px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20.05px;
+    margin-top: 39px;
+    outline: none;
+}
+.parol::placeholder{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20.05px;
+    color: #757575B2;
+}
+form a{
+    text-align: center;
+    margin-top: 18px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.05px;
+    text-decoration: none;
+    color: #000000A3;
+    margin-top: 39px;
+    display: block;
+}
+.row-footer{
+    display: flex;
+    justify-content: flex-end;
+}
+.send{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    text-align: center;
+    margin-top: 31px;
+    padding: 17px 23px;
+    color: white;
+    background: #F69E86;
+    border: none;
+    border-radius: 20px;
+}
+main{
+    padding-bottom: 52px;
+}
